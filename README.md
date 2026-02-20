@@ -1,4 +1,4 @@
-# 🚀 FastDesk — Front-end
+#  FastDesk — Front-end
 
 FastDesk é um **ERM (Enterprise Resource Management)** em desenvolvimento, criado com o objetivo de aplicar conceitos práticos de **engenharia de software**, com foco especial em **estrutura de dados**, **algoritmos eficientes** e **boas práticas de desenvolvimento front-end**.
 
@@ -6,7 +6,7 @@ Este repositório contém o **front-end da aplicação**, desenvolvido em **Reac
 
 ---
 
-## 🎯 Objetivos do Projeto
+##  Objetivos do Projeto
 
 - Desenvolver uma aplicação front-end moderna e bem estruturada
 - Aplicar conceitos de **Estrutura de Dados** no contexto real de uma aplicação
@@ -18,8 +18,6 @@ Este repositório contém o **front-end da aplicação**, desenvolvido em **Reac
 - Simular um ambiente próximo ao desenvolvimento profissional em equipe
 
 ---
-
-## 🧠 Foco Técnico
 
 Este projeto prioriza:
 
@@ -36,9 +34,10 @@ Este projeto prioriza:
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **React** — biblioteca principal para construção da interface
 - **JavaScript (ES6+)**
 - **Vite** — ambiente de desenvolvimento rápido e moderno
 - **Git & GitHub** — versionamento e colaboração
+
