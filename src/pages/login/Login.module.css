@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+
+  /* Fundo com imagem */
+  background-image: url('../../assets/background-login.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Centralização do card */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* fallback caso imagem não carregue */
+  background-color: #0a0f1f;
+}
+
+.card {
+  background: #f9fbff;
+  padding: 40px;
+  border-radius: 16px;
+  width: 360px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.remember {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+button {
+  padding: 12px;
+  background: #3b6cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2f59d8;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}

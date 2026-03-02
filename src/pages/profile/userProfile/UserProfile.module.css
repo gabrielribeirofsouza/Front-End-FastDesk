@@ -1,0 +1,142 @@
+.container {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #0b1d3a, #050b18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(18px);
+  border-radius: 20px;
+  padding: 2rem 3rem;
+  color: #fff;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  flex: 1;
+  text-align: center;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.backButton {
+  background: none;
+  border: none;
+  color: #6ea8ff;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.profileSection {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #dfe6f1, #b8c6e6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1b2b4a;
+}
+
+.changePhoto {
+  grid-column: 1;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0;
+  background: linear-gradient(135deg, #5f8cff, #3f6ae0);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.info h2 {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.info p {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.contactSection h3 {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.field {
+  margin-bottom: 1.2rem;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 1rem;
+}
+
+.inputGroup input {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  border-radius: 10px;
+  padding: 0.6rem 1rem;
+  color: #fff;
+}
+
+.inputGroup button {
+  padding: 0 1.2rem;
+  background: linear-gradient(135deg, #5f8cff, #3f6ae0);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .profileSection {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .avatar {
+    margin: 0 auto;
+  }
+
+  .changePhoto {
+    margin: 0.5rem auto 0;
+  }
+
+  .header h1 {
+    font-size: 1.1rem;
+  }
+}
